@@ -1,0 +1,138 @@
+/* Persian Fonts */
+@font-face 
+{
+    font-family: "gandom";
+    src: url("/fonts/PersianFonts/gandom/Gandom.eot")
+    url("/fonts/PersianFonts/gandom/Gandom.ttf") format("ttf"),
+    url("/fonts/PersianFonts/gandom/Gandom.woff") format("woff"),
+    url("/fonts/PersianFonts/gandom/Gandom.woff2#filename") format("woff2");
+}
+
+h4
+{
+  font-family: gandom;
+}
+
+/* Line Under Headings */
+hr.Headline
+{
+    border-top: 1px solid #0b53b1;
+    width: 100px;
+}
+
+/* Animation Gallery */
+
+div.desc
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+.zoom {
+    padding: 5px;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+  a
+  {
+      color: black;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+/* Grid Slider */
+
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+	opacity: 0;
+}
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;   
+}
+
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+#owl-demo .item{
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  
+
+
+  .scene
+  {
+      padding-top: 70px;
+      padding-left: 20px;
+  }
+
+ 
+
+  div.polaroid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
